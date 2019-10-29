@@ -1,5 +1,5 @@
 {
-  "name": "nx-cli",
+  "name": "@futurefit/cli",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
@@ -8,10 +8,20 @@
     "start": "node dist/index.js"
   },
   "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/figlet": "^1.2.0",
     "@types/jest": "^24.0.20",
     "@types/node": "^12.11.7",
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "minimist": "^1.2.0"
   }
 }
