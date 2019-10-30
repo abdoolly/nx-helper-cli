@@ -1,6 +1,6 @@
 {
   "name": "nx-helper-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/src/index.js",
   "bin": {
     "nxer": "dist/src/index.js"
