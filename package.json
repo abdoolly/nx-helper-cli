@@ -1,16 +1,20 @@
 {
-  "name": "@futurefit/cli",
+  "name": "nx-helper-cli",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "watch": "tsc --watch",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "test": "node ./dist/index.js --help",
+    "koko": "echo 'I LOVE NODEJS'"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
+    "@types/clui": "^0.3.0",
     "@types/figlet": "^1.2.0",
     "@types/jest": "^24.0.20",
+    "@types/minimist": "^1.2.0",
     "@types/node": "^12.11.7",
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
@@ -20,8 +24,13 @@
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
+    "concurrently": "^5.0.0",
     "figlet": "^1.2.4",
     "inquirer": "^7.0.0",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "node-cmd": "^3.0.0"
+  },
+  "bin": {
+    "nxer": "dist/src/index.js"
   }
 }

@@ -1,0 +1,16 @@
+{
+    "mycommand": {
+        "command": "npm run koko",
+        "options": {
+            "color": "cyan",
+            "name": ""
+        }
+    },
+    "secondCommand": {
+        "command": "npm run koko",
+        "options": {
+            "color": "yellow",
+            "name": ""
+        }
+    }
+}

@@ -7,10 +7,17 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
-    "baseUrl": "./src",
+    "baseUrl": ".",
+    "rootDir": ".",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noImplicitAny": false,
+    "allowJs": true,
+    "lib": [
+      "es2015",
+      "es2019",
+      "es2017"
+    ],
     "types": [
       "node",
       "jest"
