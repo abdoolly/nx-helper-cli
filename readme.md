@@ -2,6 +2,7 @@
 This is a helper cli which helps get things done fast in a monorepo.
 mainly it's used with [nx.dev](http://google.com) tool but has many tools that may benefit anybody working in a monorepo architecture.
 
+[![npm version](https://badge.fury.io/js/nx-helper-cli.svg)](https://badge.fury.io/js/nx-helper-cli)
 
 ## Installation
 

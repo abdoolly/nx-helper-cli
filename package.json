@@ -1,6 +1,6 @@
 {
   "name": "nx-helper-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/src/index.js",
   "bin": {
     "nxer": "dist/src/index.js"
@@ -10,6 +10,17 @@
     "start": "node dist/index.js",
     "test": "node ./dist/index.js --help"
   },
+  "keywords": [
+    "nx.dev",
+    "nx",
+    "nrwl",
+    "monorepo",
+    "monorepo cli",
+    "command runner",
+    "run concurrent",
+    "concurrent commands",
+    "run commands with json"
+  ],
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/clui": "^0.3.0",
